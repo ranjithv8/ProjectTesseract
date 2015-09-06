@@ -1,0 +1,167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'tesseract' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of D:\Resources\github\Tesseract\package.json
+5 verbose readDependencies loading dependencies from D:\Resources\github\Tesseract\package.json
+6 silly cache add args [ 'tesseract', null ]
+7 verbose cache add spec tesseract
+8 silly cache add parsed spec { raw: 'tesseract',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'tesseract',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed tesseract@*
+10 verbose addNamed "*" is a valid semver range for tesseract
+11 silly addNameRange { name: 'tesseract', range: '*', hasData: false }
+12 silly mapToRegistry name tesseract
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/tesseract
+16 verbose addNameRange registry:https://registry.npmjs.org/tesseract not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/tesseract
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 9:30:19 PM
+20 verbose request id 8e6c90af13137bfd
+21 verbose etag "87YPWHZEETW46F9GZQQISGGDA"
+22 http request GET https://registry.npmjs.org/tesseract
+23 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+24 info attempt registry request try #2 at 9:30:50 PM
+25 verbose etag "87YPWHZEETW46F9GZQQISGGDA"
+26 http request GET https://registry.npmjs.org/tesseract
+27 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+28 info attempt registry request try #3 at 9:32:15 PM
+29 verbose etag "87YPWHZEETW46F9GZQQISGGDA"
+30 http request GET https://registry.npmjs.org/tesseract
+31 silly get cb [ 304, undefined ]
+32 verbose etag https://registry.npmjs.org/tesseract from cache
+33 verbose get saving tesseract to C:\Users\Ranjith\AppData\Roaming\npm-cache\registry.npmjs.org\tesseract\.cache.json
+34 silly addNameRange number 2 { name: 'tesseract', range: '*', hasData: true }
+35 silly addNameRange versions [ 'tesseract', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+36 silly addNamed tesseract@0.0.3
+37 verbose addNamed "0.0.3" is a plain semver version for tesseract
+38 silly cache afterAdd tesseract@0.0.3
+39 verbose afterAdd C:\Users\Ranjith\AppData\Roaming\npm-cache\tesseract\0.0.3\package\package.json not in flight; writing
+40 verbose afterAdd C:\Users\Ranjith\AppData\Roaming\npm-cache\tesseract\0.0.3\package\package.json written
+41 silly install resolved [ { name: 'tesseract',
+41 silly install resolved     description: 'Tesseract OCR bindings for Node.js',
+41 silly install resolved     keywords: [ 'tesseract', 'ocr', 'image processing' ],
+41 silly install resolved     version: '0.0.3',
+41 silly install resolved     main: './lib/tesseract.js',
+41 silly install resolved     homepage: 'https://github.com/estliberitas/node-tesseract',
+41 silly install resolved     bugs: { url: 'https://github.com/estliberitas/node-tesseract/issues' },
+41 silly install resolved     repository:
+41 silly install resolved      { type: 'git',
+41 silly install resolved        url: 'git://github.com/estliberitas/node-tesseract.git' },
+41 silly install resolved     engines: { node: '>= 0.8.0' },
+41 silly install resolved     author: { name: 'Alexander Makarenko', email: 'estliberitas@gmail.com' },
+41 silly install resolved     contributors: [ [Object], [Object] ],
+41 silly install resolved     license: 'MIT',
+41 silly install resolved     scripts: { install: 'node-gyp rebuild' },
+41 silly install resolved     gypfile: true,
+41 silly install resolved     gitHead: '9ff0e45d3a365ad9e2b802bea637228e5e335153',
+41 silly install resolved     _id: 'tesseract@0.0.3',
+41 silly install resolved     _shasum: 'ff4b9d05bfee0d90d3d93450e8c6606954ff362c',
+41 silly install resolved     _from: 'tesseract@*',
+41 silly install resolved     _npmVersion: '2.5.1',
+41 silly install resolved     _nodeVersion: '0.12.0',
+41 silly install resolved     _npmUser: { name: 'estliberitas', email: 'estliberitas@gmail.com' },
+41 silly install resolved     maintainers: [ [Object] ],
+41 silly install resolved     dist:
+41 silly install resolved      { shasum: 'ff4b9d05bfee0d90d3d93450e8c6606954ff362c',
+41 silly install resolved        tarball: 'http://registry.npmjs.org/tesseract/-/tesseract-0.0.3.tgz' },
+41 silly install resolved     directories: {},
+41 silly install resolved     _resolved: 'https://registry.npmjs.org/tesseract/-/tesseract-0.0.3.tgz',
+41 silly install resolved     readme: 'ERROR: No README data found!' } ]
+42 info install tesseract@0.0.3 into D:\Resources\github\Tesseract
+43 info installOne tesseract@0.0.3
+44 verbose installOne of tesseract to D:\Resources\github\Tesseract not in flight; installing
+45 verbose lock using C:\Users\Ranjith\AppData\Roaming\npm-cache\_locks\tesseract-0b85087e7ed80f41.lock for D:\Resources\github\Tesseract\node_modules\tesseract
+46 silly install write writing tesseract 0.0.3 to D:\Resources\github\Tesseract\node_modules\tesseract
+47 verbose unbuild node_modules\tesseract
+48 silly gentlyRm D:\Resources\github\Tesseract\node_modules\tesseract is being purged from base D:\Resources\github\Tesseract
+49 verbose gentlyRm don't care about contents; nuking D:\Resources\github\Tesseract\node_modules\tesseract
+50 verbose tar unpack C:\Users\Ranjith\AppData\Roaming\npm-cache\tesseract\0.0.3\package.tgz
+51 verbose tar unpacking to D:\Resources\github\Tesseract\node_modules\tesseract
+52 silly gentlyRm D:\Resources\github\Tesseract\node_modules\tesseract is being purged
+53 verbose gentlyRm don't care about contents; nuking D:\Resources\github\Tesseract\node_modules\tesseract
+54 silly gunzTarPerm modes [ '777', '666' ]
+55 silly gunzTarPerm extractEntry package.json
+56 silly gunzTarPerm extractEntry .npmignore
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry LICENSE
+59 silly gunzTarPerm extractEntry .idea/.name
+60 silly gunzTarPerm extractEntry .idea/encodings.xml
+61 silly gunzTarPerm extractEntry .idea/inspectionProfiles/Project_Default.xml
+62 silly gunzTarPerm extractEntry .idea/inspectionProfiles/profiles_settings.xml
+63 silly gunzTarPerm extractEntry .idea/misc.xml
+64 silly gunzTarPerm extractEntry .idea/modules.xml
+65 silly gunzTarPerm extractEntry .idea/node-tesseract.iml
+66 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+67 silly gunzTarPerm extractEntry .idea/vcs.xml
+68 silly gunzTarPerm extractEntry .idea/workspace.xml
+69 silly gunzTarPerm extractEntry INSTALL
+70 silly gunzTarPerm extractEntry binding.gyp
+71 silly gunzTarPerm extractEntry lib/tesseract.js
+72 silly gunzTarPerm extractEntry src/leptonica_pix.cc
+73 silly gunzTarPerm extractEntry src/leptonica_pix.h
+74 silly gunzTarPerm extractEntry src/tesseract_baseapi.cc
+75 silly gunzTarPerm extractEntry src/tesseract_baseapi.h
+76 silly gunzTarPerm extractEntry src/tesseract_bindings.cc
+77 silly gunzTarPerm extractEntry src/tesseract_bindings.h
+78 verbose write writing to D:\Resources\github\Tesseract\node_modules\tesseract\package.json
+79 info preinstall tesseract@0.0.3
+80 verbose readDependencies loading dependencies from D:\Resources\github\Tesseract\node_modules\tesseract\package.json
+81 verbose readDependencies loading dependencies from D:\Resources\github\Tesseract\node_modules\tesseract\package.json
+82 silly install resolved []
+83 verbose about to build D:\Resources\github\Tesseract\node_modules\tesseract
+84 info build D:\Resources\github\Tesseract\node_modules\tesseract
+85 info linkStuff tesseract@0.0.3
+86 silly linkStuff tesseract@0.0.3 has D:\Resources\github\Tesseract\node_modules as its parent node_modules
+87 verbose linkBins tesseract@0.0.3
+88 verbose linkMans tesseract@0.0.3
+89 verbose rebuildBundles tesseract@0.0.3
+90 info install tesseract@0.0.3
+91 verbose unsafe-perm in lifecycle true
+92 info tesseract@0.0.3 Failed to exec install script
+93 verbose unlock done using C:\Users\Ranjith\AppData\Roaming\npm-cache\_locks\tesseract-0b85087e7ed80f41.lock for D:\Resources\github\Tesseract\node_modules\tesseract
+94 verbose stack Error: tesseract@0.0.3 install: `node-gyp rebuild`
+94 verbose stack Exit status 1
+94 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+94 verbose stack     at EventEmitter.emit (events.js:110:17)
+94 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+94 verbose stack     at ChildProcess.emit (events.js:110:17)
+94 verbose stack     at maybeClose (child_process.js:1015:16)
+94 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+95 verbose pkgid tesseract@0.0.3
+96 verbose cwd D:\Resources\github\Tesseract
+97 error Windows_NT 6.1.7601
+98 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "tesseract"
+99 error node v0.12.7
+100 error npm  v2.11.3
+101 error code ELIFECYCLE
+102 error tesseract@0.0.3 install: `node-gyp rebuild`
+102 error Exit status 1
+103 error Failed at the tesseract@0.0.3 install script 'node-gyp rebuild'.
+103 error This is most likely a problem with the tesseract package,
+103 error not with npm itself.
+103 error Tell the author that this fails on your system:
+103 error     node-gyp rebuild
+103 error You can get their info via:
+103 error     npm owner ls tesseract
+103 error There is likely additional logging output above.
+104 verbose exit [ 1, true ]
+105 verbose unbuild node_modules\tesseract
+106 info preuninstall tesseract@0.0.3
+107 info uninstall tesseract@0.0.3
+108 verbose unbuild rmStuff tesseract@0.0.3 from D:\Resources\github\Tesseract\node_modules
+109 info postuninstall tesseract@0.0.3
+110 silly gentlyRm D:\Resources\github\Tesseract\node_modules\tesseract is being purged from base D:\Resources\github\Tesseract
+111 verbose gentlyRm don't care about contents; nuking D:\Resources\github\Tesseract\node_modules\tesseract
+112 silly vacuum-fs purging D:\Resources\github\Tesseract\node_modules\tesseract
+113 silly vacuum-fs quitting because other entries in D:\Resources\github\Tesseract\node_modules
